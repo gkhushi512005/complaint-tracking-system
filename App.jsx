@@ -18,24 +18,26 @@ function App() {
         borderRadius: '12px',
         boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
         textAlign: 'center',
-        maxWidth: '500px'
+        maxWidth: '520px',
+        margin: '20px'
       }}>
         <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#2563eb', marginBottom: '12px' }}>
           Complaint & Issue Tracking System
         </h1>
-        <p style={{ color: '#4b5563', marginBottom: '20px' }}>
-          MERN Stack Application with JWT & Role-Based Access Control is now live on Render!
+        <p style={{ color: '#4b5563', marginBottom: '24px', lineHeight: '1.5' }}>
+          Full-Stack MERN Application with JWT Authentication and Role-Based Access Control is successfully running live!
         </p>
-        <span style={{
+        <div style={{
+          display: 'inline-block',
           background: '#dcfce7',
           color: '#15803d',
-          padding: '6px 16px',
+          padding: '8px 18px',
           borderRadius: '9999px',
           fontWeight: '600',
           fontSize: '14px'
         }}>
-          ● System Operational
-        </span>
+          ● All Systems Operational
+        </div>
       </div>
     </div>
   );
