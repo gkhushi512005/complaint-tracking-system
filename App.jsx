@@ -207,7 +207,7 @@ export default function App() {
           </div>
 
           <div className="demo-buttons">
-            <p style={{ fontSize: '13px', color: '#6b7280', marginBottom: '8px' }}>🚀 1-Click Instant Demo Login:</p>
+            <p style={{ fontSize: '13px', color: '#6b7280', marginBottom: '8px' }}> 1-Click Instant Demo Login:</p>
             <div style={{ display: 'flex', gap: '8px' }}>
               <button type="button" className="btn-demo" onClick={() => handleDemoLogin('user')}>
                 Demo User
@@ -232,7 +232,7 @@ export default function App() {
                 <input
                   type="text"
                   required
-                  placeholder="John Doe"
+                  placeholder="Rahul Sharma"
                   value={authForm.name}
                   onChange={(e) => setAuthForm({ ...authForm, name: e.target.value })}
                 />
@@ -283,7 +283,7 @@ export default function App() {
       {/* Top Navbar */}
       <header className="navbar">
         <div className="nav-brand">
-          <span className="brand-logo">🛡️</span>
+          <span className="brand-logo"></span>
           <h2>IssueTracker</h2>
         </div>
 
